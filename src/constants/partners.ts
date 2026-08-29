@@ -50,7 +50,7 @@ export const PICKUP_STATUS_LABELS_AR: Record<
 export const SEED_PARTNERS: Partner[] = [
   // 1. COLLECTION POINTS
   {
-    id: "p1111111-1111-1111-1111-111111111111",
+    id: "d1111111-1111-1111-1111-111111111111",
     name: "Cairo University Green Hub",
     name_ar: "مركز جامعة القاهرة لتدوير الإلكترونيات",
     type: "collection_point",
@@ -69,7 +69,7 @@ export const SEED_PARTNERS: Partner[] = [
     updated_at: new Date().toISOString(),
   },
   {
-    id: "p1111111-2222-2222-2222-222222222222",
+    id: "d1111111-2222-2222-2222-222222222222",
     name: "Smart Village Drop-off Hub",
     name_ar: "نقطة تجميع القرية الذكية (Smart Village Hub)",
     type: "collection_point",
@@ -88,7 +88,7 @@ export const SEED_PARTNERS: Partner[] = [
     updated_at: new Date().toISOString(),
   },
   {
-    id: "p1111111-3333-3333-3333-333333333333",
+    id: "d1111111-3333-3333-3333-333333333333",
     name: "Resala Recycling Center Maadi",
     name_ar: "مركز جمعية رسالة لإعادة التدوير - المعادي",
     type: "collection_point",
@@ -107,7 +107,7 @@ export const SEED_PARTNERS: Partner[] = [
     updated_at: new Date().toISOString(),
   },
   {
-    id: "p1111111-4444-4444-4444-444444444444",
+    id: "d1111111-4444-4444-4444-444444444444",
     name: "Alexandria Green Hub Smouha",
     name_ar: "نقطة تجميع الإسكندرية الخضراء - سموحة",
     type: "collection_point",
@@ -128,7 +128,7 @@ export const SEED_PARTNERS: Partner[] = [
 
   // 2. TRANSPORT & LOGISTICS
   {
-    id: "p2222222-1111-1111-1111-111111111111",
+    id: "d2222222-1111-1111-1111-111111111111",
     name: "Green Express Logistics Fleet",
     name_ar: "أسطول جرين إكسبريس للشحن الأخضر",
     type: "transport",
@@ -147,7 +147,7 @@ export const SEED_PARTNERS: Partner[] = [
     updated_at: new Date().toISOString(),
   },
   {
-    id: "p2222222-2222-2222-2222-222222222222",
+    id: "d2222222-2222-2222-2222-222222222222",
     name: "Cairo Eco-Courier Network",
     name_ar: "شبكة مندوبي تدوير القاهرة الكبرى",
     type: "transport",
@@ -168,7 +168,7 @@ export const SEED_PARTNERS: Partner[] = [
 
   // 3. RECYCLING PLANTS
   {
-    id: "p3333333-1111-1111-1111-111111111111",
+    id: "d3333333-1111-1111-1111-111111111111",
     name: "EGY-Recycle Metal Refining Plant",
     name_ar: "مصنع إيجي ريسايكل لاستخلاص المعادن النفيسة",
     type: "recycler",
