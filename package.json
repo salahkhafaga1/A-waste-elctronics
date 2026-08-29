@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "node fix-clerk.cjs && node fix-modules.cjs && next build",
+    "postinstall": "node fix-clerk.cjs && node fix-modules.cjs",
     "start": "next start",
     "lint": "next lint",
     "type-check": "tsc --noEmit"

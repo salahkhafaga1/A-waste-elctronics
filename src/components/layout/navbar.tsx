@@ -13,7 +13,7 @@ export function Navbar() {
   const { user } = useUser();
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
 
-  const role = (user?.publicMetadata?.role || user?.privateMetadata?.role) as string | undefined;
+  const role = (user?.publicMetadata?.role || (user as any)?.privateMetadata?.role) as string | undefined;
   const isAdmin = role === "admin";
 
   const navLinks = [
